@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.accordCon1{
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+.slidesA{
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide1{
+    list-style-type: none;
+    height: 600px;
+    width: 5%;
+    overflow: hidden;
+
+    transition: all 500ms linear;
+}
+.accord1{
+        background-color: plum;
+        }
+.accord2{
+        background-color: pink;
+        }
+.accord3{
+        background-color:aliceblue;
+        }
+.accord4{
+        background-color:paleturquoise;
+        }
+.accord5{
+        background-color: #77DD77;
+        }
+.slide1 a.action{
+    display: block;
+    height: 100%;
+    position: relative;
+}
+.slide1 a.action span{
+    font-weight: 600;
+    color: whitesmoke;
+    transform:rotate(270deg);
+    position: absolute;
+    top: 10%;
+    width: 140px;
+    left:-30%;
+    height: 100px;
+}
+.slide1Content{
+    display: block;
+    width: 710px;
+    padding: 40px;
+    color:antiquewhite;
+}
+.active{
+width: 80%;
+}
+.active a.action{
+    display: none;
+}
